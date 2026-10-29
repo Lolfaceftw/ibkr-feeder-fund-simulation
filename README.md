@@ -1,6 +1,6 @@
 # IBKR vs. Local Feeder Funds
 
-**Author: Christian Klein C. Ramos**
+**Author: Christian Klein C. Ramos ([Lolfaceftw](https://github.com/Lolfaceftw))**
 
 A Python Monte Carlo comparison of VWRA through IBKR and SB Global Equity Index Feeder Fund. The model follows 10,000 paired investment paths over 30 years, measuring how annual expenses, dividend withholding, and conversion charges affect portfolio wealth.
 
