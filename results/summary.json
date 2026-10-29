@@ -1,0 +1,68 @@
+{
+  "config": {
+    "trials": 10000,
+    "years": 30,
+    "seed": 42,
+    "annual_contribution": 1025.0,
+    "annual_mean_return": 0.1,
+    "annual_volatility": 0.12,
+    "garch_alpha": 0.05,
+    "garch_beta": 0.9,
+    "student_df": 3.0,
+    "dividend_yield": 0.02,
+    "vwra_expense_ratio": 0.0019,
+    "sb_expense_ratio": 0.00755,
+    "vwra_dividend_withholding": 0.15,
+    "sb_dividend_withholding": 0.25,
+    "wise_fee_min": 0.002,
+    "wise_fee_max": 0.0035
+  },
+  "diagnostics": {
+    "vwra_nonpositive_gross_factors": 97,
+    "sb_nonpositive_gross_factors": 97
+  },
+  "terminal_percentiles": [
+    {
+      "fund": "vwra",
+      "percentile": 5,
+      "wealth_usd": 73371.44258606952
+    },
+    {
+      "fund": "vwra",
+      "percentile": 50,
+      "wealth_usd": 155549.2390561824
+    },
+    {
+      "fund": "vwra",
+      "percentile": 95,
+      "wealth_usd": 296466.013312848
+    },
+    {
+      "fund": "sb",
+      "percentile": 5,
+      "wealth_usd": 63541.77218950804
+    },
+    {
+      "fund": "sb",
+      "percentile": 50,
+      "wealth_usd": 133118.5962798839
+    },
+    {
+      "fund": "sb",
+      "percentile": 95,
+      "wealth_usd": 251475.94284202624
+    }
+  ],
+  "median_gap_usd": 22430.64277629851,
+  "median_gap_percent": 14.420284478663923,
+  "display_range_counts": {
+    "vwra": {
+      "terminal_above_410000": 110,
+      "path_points_above_600000": 62
+    },
+    "sb": {
+      "terminal_above_410000": 55,
+      "path_points_above_600000": 36
+    }
+  }
+}

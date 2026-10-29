@@ -1,0 +1,18 @@
+{
+  "trials": 10000,
+  "years": 30,
+  "seed": 42,
+  "annual_contribution": 1025.0,
+  "annual_mean_return": 0.10,
+  "annual_volatility": 0.12,
+  "garch_alpha": 0.05,
+  "garch_beta": 0.90,
+  "student_df": 3.0,
+  "dividend_yield": 0.02,
+  "vwra_expense_ratio": 0.0019,
+  "sb_expense_ratio": 0.00755,
+  "vwra_dividend_withholding": 0.15,
+  "sb_dividend_withholding": 0.25,
+  "wise_fee_min": 0.002,
+  "wise_fee_max": 0.0035
+}
